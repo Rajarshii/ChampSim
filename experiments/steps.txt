@@ -1,0 +1,1000 @@
+ 1031  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1032  g++ main.cpp --std=c++2a -o cache_sim
+ 1033  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1034  g++ main.cpp --std=c++2a -o cache_sim
+ 1035  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1036  g++ main.cpp --std=c++2a -o cache_sim
+ 1037  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1038  g++ main.cpp --std=c++2a -o cache_sim
+ 1039  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1040  g++ main.cpp --std=c++2a -o cache_sim
+ 1041  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1042  g++ main.cpp --std=c++2a -o cache_sim
+ 1043  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1044  g++ main.cpp --std=c++2a -o cache_sim
+ 1045  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1046  g++ main.cpp --std=c++2a -o cache_sim
+ 1047  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1048  g++ main.cpp --std=c++2a -o cache_sim
+ 1049  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1050  g++ main.cpp --std=c++2a -o cache_sim
+ 1051  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1052  cd ../
+ 1053  ./cache_sim cache_traces/traces/art.trace 
+ 1054  cl
+ 1055  ./cache_sim cache_traces/traces/art.trace 
+ 1056  ./cache_simulator/cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1057  cl
+ 1058  ./cache_sim cache_traces/traces/art.trace 
+ 1059  ./cache_simulator/cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1060  cd cache_simulator/
+ 1061  ./cache_sim ../cache_traces/traces/art.trace 32768 2 64 2 30
+ 1062  ./cache_simulator/cache_sim cache_traces/traces/art.trace 32768 2 64 2 30
+ 1063  ./cache_sim cache_traces/traces/art.trace 
+ 1064  pwd
+ 1065  cd cache_simulator/
+ 1066  g++ main.cpp --std=c++2a -o cache_sim
+ 1067  cd ../
+ 1068  ./cache_simulator/cache_sim cache_traces/traces/art.trace 32768 2 64 2 30
+ 1069  cd cache_simulator/
+ 1070  g++ main.cpp --std=c++2a -o cache_sim
+ 1071  cd ../
+ 1072  ./cache_simulator/cache_sim cache_traces/traces/art.trace 32768 2 64 2 30
+ 1073  cd cache_simulator/
+ 1074  g++ main.cpp --std=c++2a -o cache_sim
+ 1075  cd ../
+ 1076  ./cache_simulator/cache_sim cache_traces/traces/art.trace 32768 2 64 2 30
+ 1077  ./cache_sim cache_traces/traces/art.trace 
+ 1078  pwd
+ 1079  cd cache_simulator/
+ 1080  g++ main.cpp --std=c++2a -o cache_sim
+ 1081  cd ../
+ 1082  ./cache_simulator/cache_sim cache_traces/traces/art.trace 32768 2 64 2 30
+ 1083  cd cache_simulator/
+ 1084  g++ main.cpp --std=c++2a -o cache_sim
+ 1085  cl
+ 1086  g++ main.cpp --std=c++2a -o cache_sim
+ 1087  cd ../
+ 1088  g++ main.cpp --std=c++2a -o cache_sim_rd
+ 1089  ./cache_simulator/cache_sim cache_traces/traces/art.trace 32768 2 64 2 30
+ 1090  ./cache_sim cache_traces/traces/art.trace 
+ 1091  cd cache_simulator/
+ 1092  code cache_simulator.cpp 
+ 1093  rm cache_simulator.cpp 
+ 1094  mv main.cpp cache_simulator.cpp
+ 1095  cd ../
+ 1096  cd cache_simulator/
+ 1097  g++ cache_simulator.cpp --std=c++2a -o cache_sim
+ 1098  cd ../
+ 1099  ./cache_simulator/cache_sim cache_traces/traces/art.trace 32768 2 64 2 30
+ 1100  code cache_simulator/cache_simulator.cpp 
+ 1101  cd cache_simulator/
+ 1102  g++ cache_simulator.cpp --std=c++2a -o cache_sim
+ 1103  cd ../
+ 1104  ./cache_simulator/cache_sim cache_traces/traces/art.trace 32768 2 64 2 30
+ 1105  ./cache_simulator/cache_sim cache_traces/traces/art.trace 16384 1 16 0 30
+ 1106  g++ cache_simulator.cpp --std=c++2a -o cache_sim -O3
+ 1107  cd cache_simulator/
+ 1108  g++ cache_simulator.cpp --std=c++2a -o cache_sim -O3
+ 1109  cd ../
+ 1110  ./cache_simulator/cache_sim cache_traces/traces/art.trace 16384 1 16 0 30
+ 1111  ./cache_simulator/cache_sim cache_traces/traces/art.trace 32768 2 64 2 30
+ 1112  cd cache_traces/traces/
+ 1113  ls
+ 1114  gunzip mcf.trace.gz 
+ 1115  ls
+ 1116  cd ../
+ 1117  ./cache_simulator/cache_sim cache_traces/traces/mcf.trace 65536 8 32 0 42
+ 1118  cd cache_traces/traces/
+ 1119  cd ../../cache_simulator/
+ 1120  g++ cache_simulator.cpp --std=c++2a -o cache_sim -O3
+ 1121  cd ../
+ 1122  ./cache_simulator/cache_sim cache_traces/traces/mcf.trace 65536 8 32 0 42
+ 1123  cd cache_simulator/
+ 1124  g++ cache_simulator.cpp --std=c++2a -o cache_sim -O3
+ 1125  cd ../
+ 1126  ./cache_simulator/cache_sim cache_traces/traces/mcf.trace 65536 8 32 0 42
+ 1127  cd cache_simulator/
+ 1128  g++ cache_simulator.cpp --std=c++2a -o cache_sim -O3
+ 1129  cd ../
+ 1130  ./cache_simulator/cache_sim cache_traces/traces/mcf.trace 65536 8 32 0 42
+ 1131  clear
+ 1132  cd cache_simulator/
+ 1133  ls
+ 1134  rm array_move_neg_to_oneside.cpp 
+ 1135  ls
+ 1136  cl
+ 1137  cd ChampSim_base/ChampSim/
+ 1138  code job_submit.sh 
+ 1139  cd ../../Pythia/
+ 1140  cl
+ 1141  ls
+ 1142  code build_champsim.sh 
+ 1143  code prefetcher/multi.l1d_pref 
+ 1144  cl
+ 1145  cd ChampSim_base/ChampSim/dpc3_traces/
+ 1146  ls
+ 1147  gzip -k 600.perlbench_s-210B.champsimtrace.xz 
+ 1148  cat -n 10 600.perlbench_s-210B.champsimtrace.xz
+ 1149  cd ChampSim_base/ChampSim/dpc3_traces/
+ 1150  ls
+ 1151  rm 600.perlbench_s-210B.champsimtrace.xz.gz 
+ 1152  gzip -d -k 600.perlbench_s-210B.champsimtrace.xz 
+ 1153  xz --decompress 600.perlbench_s-210B.champsimtrace.xz 
+ 1154  l
+ 1155  xz --decompress 600.perlbench_s-210B.champsimtrace.xz --stdout | head -1
+ 1156  xz --decompress 600.perlbench_s-210B.champsimtrace.xz --stdout | head -2
+ 1157  xz --decompress 600.perlbench_s-210B.champsimtrace.xz
+ 1158  head -2 600.perlbench_s-210B.champsimtrace 
+ 1159  rm 600.perlbench_s-210B.champsimtrace 
+ 1160  ls
+ 1161  cd ../
+ 1162  cd
+ 1163  cd /run/mount/
+ 1164  ls
+ 1165  cd /media/
+ 1166  ls
+ 1167  cd /run/mount/
+ 1168  ls
+ 1169  mkdir /mnt/g
+ 1170  sudo su
+ 1171  cd Pythia/
+ 1172  ./build_champsim.sh multi multi no 1
+ 1173  source setvars.sh
+ 1174  cd $PYTHIA_HOME/scripts
+ 1175  wget https://megatools.megous.com/builds/builds/megatools-1.11.1.20230212-linux-x86_64.tar.gz
+ 1176  tar -xvf megatools-1.11.1.20230212-linux-x86_64.tar.gz
+ 1177  mkdir $PYTHIA_HOME/traces/
+ 1178  cd $PYTHIA_HOME/scripts/
+ 1179  perl download_traces.pl --csv artifact_traces.csv --dir ../traces/
+ 1180  cd \$PYTHIA_HOME/traces
+ 1181  cd ../
+ 1182  cd traces/
+ 1183  ls
+ 1184  cd ../
+ 1185  rm -rf traces/
+ 1186  mkdir traces
+ 1187  cd Pythia/
+ 1188  cd scripts/
+ 1189  gvim download_traces.pl 
+ 1190  ls
+ 1191  source setvars.sh
+ 1192  cd ../traces
+ 1193  cd ../
+ 1194  source setvars.sh
+ 1195  cd scripts/
+ 1196  perl download_traces.pl --csv artifact_traces.csv --dir ../traces/
+ 1197  cd ../
+ 1198  rm -rf traces/
+ 1199  mkdir traces
+ 1200  cd scripts/
+ 1201  gvim download_traces.pl 
+ 1202  perl download_traces.pl --csv artifact_traces_subset.csv --dir ../traces/
+ 1203  sudo mount -t drvfs G: /mnt/g
+ 1204  sudo mount -t drvfs D: /mnt/g
+ 1205  sudo apt install cifs-utils
+ 1206  sudo mount -t drvfs D: /mnt/g
+ 1207  cd ChampSim_base/ChampSim/
+ 1208  ls
+ 1209  gvim job_submit.sh 
+ 1210  gvim my_config.json 
+ 1211  gvim champsim_config.json 
+ 1212  cd ChampSim_base/ChampSim/prefetcher/
+ 1213  ls
+ 1214  code next_line/next_line.cc 
+ 1215  code ip_stride/ip_stride.cc 
+ 1216  code next_line/next_line.cc 
+ 1217  code va_ampm_lite/va_ampm_lite.cc 
+ 1218  cd Pythia/
+ 1219  ls
+ 1220  cd traces/
+ 1221  ls
+ 1222  cd ../
+ 1223  rm -rf traces/
+ 1224  mkdir traces
+ 1225  source setvars.sh 
+ 1226  cd \$PYTHIA_HOME/scripts/[B
+ 1227  vim artifact_traces_subset.csv 
+ 1228  gvim artifact_traces_subset.csv 
+ 1229  perl download_traces.pl --csv artifact_traces_subset.csv -dir ../traces/
+ 1230  cd ../traces/
+ 1231  ls
+ 1232  cd $PYTHIA_HOME/experiments/
+ 1233  gvim ../scripts/create_jobfile.pl 
+ 1234  ls
+ 1235  cp MICRO21_1C.exp rajarshi_apr.exp
+ 1236  gvim rajarshi_apr.exp 
+ 1237  cp MICRO21_1C.tlist rajarshi_apr.tlist
+ 1238  gvim rajarshi_apr.tlist 
+ 1239  gvim rajarshi_apr.exp 
+ 1240  perl ../scripts/create_jobfile.pl --exe $PYTHIA_HOME/bin/perceptron-multi-multi-no-ship-1core --tlist rajarshi_apr.tlist --exp rajarshi_apr.exp --local 1 > jobfile.sh
+ 1241  gvim jobfile.sh 
+ 1242  ls
+ 1243  mkdir rajarshi_0412
+ 1244  cd rajarshi_0412/
+ 1245  source ../jobfile.sh 
+ 1246  ls
+ 1247  gvim ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M_nopref.out 
+ 1248  gvim ../jobfile.sh 
+ 1249  cd ../../../ChampSim_base/ChampSim/
+ 1250  ls
+ 1251  gvim job_submit.sh 
+ 1252  gvim my_config.json 
+ 1253  cp champsim_config.json my_config.json 
+ 1254  code src/dram_controller.cc 
+ 1255  code config.sh 
+ 1256  code src/dram_controller.cc 
+ 1257  ./config.sh my_config.json 
+ 1258  make
+ 1259  cd bin/
+ 1260  ls
+ 1261  mv champsim champsim_pyth_no
+ 1262  ls
+ 1263  cd ../
+ 1264  gvim ../../Pythia/experiments/jobfile.sh 
+ 1265  cp ../../Pythia/experiments/jobfile.sh jobfile_pythia.sh
+ 1266  gvim jobfile_pythia.sh 
+ 1267  cd bin/
+ 1268  ls
+ 1269  cd ../../
+ 1270  cd ChampSim/
+ 1271  source jobfile_pythia.sh 
+ 1272  gvim jobfile_pythia.sh 
+ 1273  source jobfile_pythia.sh 
+ 1274  ls
+ 1275  gvim ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M_nopref.out 
+ 1276  gvim my_config.json 
+ 1277  gvim prefetcher/spp_dev/spp_dev.cc 
+ 1278  ./config.sh my_config.json 
+ 1279  make
+ 1280  gvim jobfile_pythia.sh 
+ 1281  cd bin/
+ 1282  ls
+ 1283  mv champsim champsim_pyth_spp
+ 1284  cd ../
+ 1285  source jobfile_pythia.sh 
+ 1286  gvim prefetcher/spp_dev/spp_dev.cc 
+ 1287  gvim ../../Pythia/prefetcher/spp_dev2.cc 
+ 1288  gvim prefetcher/spp_dev/spp_dev.cc 
+ 1289  gvim ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M_spp.out 
+ 1290  gvim ../../Pythia/experiments/rajarshi_0412/ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M_spp.out 
+ 1291  gvim my_config.json 
+ 1292  code prefetcher/spp_dev/spp_dev.cc 
+ 1293  ./config.sh my_config.json 
+ 1294  make
+ 1295  cd bin/
+ 1296  cp champsim champsim_pyth_spp 
+ 1297  cd ../
+ 1298  source jobfile_pythia.sh 
+ 1299  gvim ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M_spp.out 
+ 1300  code prefetcher/spp_dev/spp_dev.cc 
+ 1301  grep -R "MAX_GHR_ENTRY" .
+ 1302  cd inc/
+ 1303  grep -R "MAX_GHR_ENTRY" .
+ 1304  grep -R "MAX_GHR_ENTRY" 
+ 1305  grep "MAX_GHR_ENTRY" 
+ 1306  ls
+ 1307  code ../prefetcher/spp_dev/spp_dev.h 
+ 1308  cd ../
+ 1309  code ../../Pythia/prefetcher/spp_dev2_helper.cc 
+ 1310  code ../../Pythia/inc/spp_dev2.h 
+ 1311  code ../../Pythia/inc/spp_dev2_helper.h 
+ 1312  make
+ 1313  source jobfile_pythia.sh 
+ 1314  gvim ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M_spp.out 
+ 1315  cd bin/
+ 1316  cp champsim champsim_pyth_spp 
+ 1317  cd ../
+ 1318  source jobfile_pythia.sh 
+ 1319  gvim ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M_spp.out 
+ 1320  gvim champsim_config.json 
+ 1321  ./config.sh champsim_config.json 
+ 1322  make
+ 1323  /home/das/ChampSim_base/ChampSim/bin/champsim_pyth --warmup_instructions=100000000 --simulation_instructions=150000000 /home/das/Pythia/traces/ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M.champsimtrace.xz > ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M_spp.out
+ 1324  /home/das/ChampSim_base/ChampSim/bin/champsim --warmup_instructions=100000000 --simulation_instructions=150000000 /home/das/Pythia/traces/ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M.champsimtrace.xz > ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M_spp.out
+ 1325  gvim champsim_config.json 
+ 1326  source jobfile_pythia.sh 
+ 1327  gvim champsim_config.json 
+ 1328  ./config.sh champsim_config.json 
+ 1329  cl
+ 1330  gvim my_config.json 
+ 1331  gvim champsim_config.json 
+ 1332  touch my_config_pref.json
+ 1333  gvim my_config_pref.json 
+ 1334  ./config.sh my_config_pref.json 
+ 1335  make
+ 1336  cd bin/
+ 1337  cp champsim champsim_pyth_spp 
+ 1338  cd ../
+ 1339  source jobfile_pythia.sh 
+ 1340  gvim ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M_spp.out 
+ 1341  gvim config.sh 
+ 1342  cd  Pythia/
+ 1343  ls
+ 1344  cd config/
+ 1345  ls
+ 1346  gvim spp_dev2.ini 
+ 1347  gvim spp_ppf_dev.ini 
+ 1348  cd ../
+ 1349  ls
+ 1350  gvim experiments/jobfile.sh 
+ 1351  cd
+ 1352  ls
+ 1353  cd cache_test/__pycache__/
+ 1354  ls
+ 1355  cd ../
+ 1356  ls
+ 1357  cd ../
+ 1358  ls
+ 1359  rm a.out 
+ 1360  ls
+ 1361  rm broken_ll
+ 1362  ls
+ 1363  cd ChampSim_base/ChampSim/
+ 1364  ls
+ 1365  gvim run_jobs
+ 1366  gvim run_jobs.sh 
+ 1367  gvim champsim_config.json 
+ 1368  cd ../
+ 1369  ls
+ 1370  du -sh
+ 1371  cd ../
+ 1372  ls
+ 1373  cd ../
+ 1374  du -sh
+ 1375  pws
+ 1376  pwd
+ 1377  cd das/
+ 1378  du -sh
+ 1379  cd Pythia/
+ 1380  ls
+ 1381  cd experiments/
+ 1382  code jobfile.sh 
+ 1383  cd Pythia/
+ 1384  pwd
+ 1385  cd prefetcher/
+ 1386  pwd
+ 1387  code scooby.cc 
+ 1388  ls
+ 1389  cd ../../ChampSim_base/ChampSim/
+ 1390  pwd
+ 1391  ls
+ 1392  rm ligra_BellmanFord.com-lj.ungraph.gcc_6.3.0_O3.drop_1750M.length_250M_*
+ 1393  ls
+ 1394  cd prefetcher/
+ 1395  cp ../../../Pythia/prefetcher/scooby.cc .
+ 1396  mkdir pythia
+ 1397  cd pythia/
+ 1398  cp ../scooby.cc .
+ 1399  ls
+ 1400  cd ../
+ 1401  rm scooby.cc 
+ 1402  cd va_ampm_lite/
+ 1403  ls
+ 1404  cd ../spp_dev/
+ 1405  ls
+ 1406  cd ../pythia/
+ 1407  cp ../../../../Pythia/inc/scooby.h .
+ 1408  ls
+ 1409  code scooby.h 
+ 1410  code ../spp_dev/spp_dev.h 
+ 1411  code ../spp_dev/spp_dev.c
+ 1412  code ../spp_dev/spp_dev.cc 
+ 1413  cp ../../../../Pythia/inc/learning_engine_* .
+ 1414  ls
+ 1415  code learning_engine_base.h 
+ 1416  cp ../../../../Pythia/inc/prefetcher.h .
+ 1417  code prefetcher.h 
+ 1418  code ../spp_dev/spp_dev.h 
+ 1419  code ../../../../Pythia/prefetcher/spp_dev2.cc 
+ 1420  code ../../inc/cache.h 
+ 1421  cp scooby.h pythia.h
+ 1422  cp scooby.cc pythia.cc
+ 1423  code pythia.cc 
+ 1424  code ../../inc/cache.h 
+ 1425  code ../../../../Pythia/src/util.cc 
+ 1426  code ../../../../Pythia/inc/util.h 
+ 1427  cd ../../inc/
+ 1428  ls
+ 1429  cd util/
+ 1430  ls
+ 1431  cp ../../../../Pythia/inc/util.h pythia_util.h
+ 1432  cd ../../src/
+ 1433  ls
+ 1434  cp ../../../Pythia/src/util.cc pythia_util.cc
+ 1435  code pythia_util.cc 
+ 1436  code cache.cc 
+ 1437  code ../../../Pythia/src/cache.cc 
+ 1438  cd ../../../Pythia/src/
+ 1439  grep -R "register_fill" .
+ 1440  cd ../prefetcher/
+ 1441  grep -R "register_fill" .
+ 1442  cd ../src/
+ 1443  grep -R "register_fill" .
+ 1444  cd ../inc/
+ 1445  grep -R "register_fill" .
+ 1446  cd ../prefetcher/
+ 1447  code l2c_prefetcher.cc 
+ 1448  code multi.l2c_pref 
+ 1449  cd ../../ChampSim_base/ChampSim/src/
+ 1450  code cache.cc 
+ 1451  cd ../../../Pythia/prefetcher/
+ 1452  ls
+ 1453  vim ampm.cc 
+ 1454  code ampm.cc 
+ 1455  code bingo.cc 
+ 1456  ls
+ 1457  cd Pythia/src/
+ 1458  grep -R "0.0065"
+ 1459  code knobs.cc 
+ 1460  grep -R "action.*list"
+ 1461  cd ../prefetcher/
+ 1462  grep -R "action.*list"
+ 1463  grep -R ".*list"
+ 1464  grep -R "action"
+ 1465  grep -R "-6"
+ 1466  grep -R "6"
+ 1467  clear
+ 1468  grep -R "-6"
+ 1469  grep -R "-6" .
+ 1470  clear
+ 1471  grep -R "30"
+ 1472  grep -R "30" .
+ 1473  cd ../src/
+ 1474  grep -R "30" .
+ 1475  cd ../inc/
+ 1476  grep -R "30" .
+ 1477  code feature_knowledge.h 
+ 1478  grep -R "action.*list" .
+ 1479  grep -R "action" .
+ 1480  clear
+ 1481  ls
+ 1482  gvim learning_engine_basic.h 
+ 1483  code feature_knowledge_helper.h
+ 1484  code learning_engine_base.h 
+ 1485  code learning_engine_basic.h 
+ 1486  cd ../src/
+ 1487  ls
+ 1488  code learning_engine_base.cc 
+ 1489  code learning_engine_basic.cc 
+ 1490  code util.cc 
+ 1491  grep -R "getHash" .
+ 1492  cd ../prefetcher/
+ 1493  grep -R "getHash" .
+ 1494  cd ../src/
+ 1495  cd ../inc/
+ 1496  grep -R "getHash" .
+ 1497  code feature_knowledge_helper.h 
+ 1498  grep -R "m_hash_type" .
+ 1499  cd ../src/
+ 1500  grep -R "m_hash_type" .
+ 1501  grep -R "hash_type" .
+ 1502  grep -R "m_hash_type" .
+ 1503  cd ../prefetcher/
+ 1504  grep -R "m_hash_type" .
+ 1505  cd ../src/
+ 1506  cd ../inc/
+ 1507  grep -R "m_hash_type" .
+ 1508  clear
+ 1509  cd ../src/
+ 1510  grep -R "m_hash_type" .
+ 1511  code feature_knowledge.cc 
+ 1512  grep -R "hash_type" .
+ 1513  cd ../prefetcher/
+ 1514  grep -R "hash_type" .
+ 1515  code scooby.cc 
+ 1516  code scooby_helper.cc 
+ 1517  cd ../src/
+ 1518  ls
+ 1519  code learning_engine_basic.cc 
+ 1520  code learning_engine_featurewise.cc 
+ 1521  code LearningEngineBasic .
+ 1522  grep -R LearningEngineBasic .
+ 1523  cd ../prefetcher/
+ 1524  grep -R LearningEngineBasic .
+ 1525  grep scooby_enable_featurewise_engine .
+ 1526  grep scooby_enable_featurewise_engine
+ 1527  grep -R "scooby_enable_featurewise_engine"
+ 1528  cd ../src/
+ 1529  grep -R "scooby_enable_featurewise_engine"
+ 1530  code learning_engine_basic.cc 
+ 1531  code learning_engine_featurewise.cc 
+ 1532  clear
+ 1533  getconf -a | CACHE
+ 1534  getconf -a | grep CACHE
+ 1535  getconf -a
+ 1536  clear
+ 1537  wmic diskdrive list brief
+ 1538  wsl --mount \\.\PHYSICALDRIVE1 --bare
+ 1539  sudo prime-select query
+ 1540  cat /proc/driver/nvidia/version
+ 1541  du -sh
+ 1542  du -sh /*
+ 1543  clear
+ 1544  cd anaconda3/
+ 1545  ls
+ 1546  pwd
+ 1547  cd ../
+ 1548  echo $PATH
+ 1549  echo $PATH | grep "anaconda"
+ 1550  echo $PATH | grep "RISCV"
+ 1551  echo $PATH | grep "conda"
+ 1552  rm -rf anaconda3/
+ 1553  ls
+ 1554  rm 687_hw17_case1.txt*
+ 1555  ls
+ 1556  cd ChampSim_base/ChampSim/
+ 1557  ls
+ 1558  clear
+ 1559  ls
+ 1560  cd dpc3_traces/
+ 1561  ls
+ 1562  cd ../
+ 1563  cd ..
+ 1564  vim .viminfo 
+ 1565  touch .vimrc
+ 1566  gvim .vimrc 
+ 1567  cl
+ 1568  code ./.cshrc
+ 1569  code ./.bashrc
+ 1570  code ~/.bash_aliases 
+ 1571  code .program_call1.c.swp 
+ 1572  cl
+ 1573  firefox 
+ 1574  dmesg
+ 1575  dmesg | tail
+ 1576  cl
+ 1577  dmesg | tail
+ 1578  cl
+ 1579  code recursion.elf 
+ 1580  vim recursion.elf 
+ 1581  vim recursion.dump 
+ 1582  gdb
+ 1583  ls
+ 1584  cd Pythia/
+ 1585  cd prefetcher/
+ 1586  ls
+ 1587  vim ppf_dev.cc 
+ 1588  vim spp_dev2.cc 
+ 1589  cd ../../ChampSim_base/ChampSim/prefetcher/
+ 1590  ls
+ 1591  vim spp_dev/spp_dev.cc 
+ 1592  vim ../../../Pythia/prefetcher/spp_dev2.cc 
+ 1593  ls
+ 1594  gvim spp_dev/spp_dev.cc 
+ 1595  cd ChampSim_base/ChampSim/
+ 1596  mkdir pref_research
+ 1597  cd pref_research/
+ 1598  mkdir experiments
+ 1599  cd experiments/
+ 1600  code ../../../../Pythia/scripts/create_jobfile.pl 
+ 1601  touch example.tlist
+ 1602  touch example.config
+ 1603  ls
+ 1604  touch create_jobs.py
+ 1605  code create_jobs.py 
+ 1606  code ../../../../Pythia/experiments/MICRO21_1C.tlist 
+ 1607  pwd
+ 1608  ls
+ 1609  cd ../
+ 1610  pwd
+ 1611  ls
+ 1612  cleear
+ 1613  clear
+ 1614  ls
+ 1615  cd experiments/
+ 1616  ls
+ 1617  code ../../../../Pythia/experiments/MICRO21_1C.exp 
+ 1618  code ../../../../Pythia/experiments/MICRO21_4C.tlist 
+ 1619  code ../../../../Pythia/scripts/Exp.pm 
+ 1620  code ../../../../Pythia/scripts/Trace.pm 
+ 1621  code ../../run_jobs.sh 
+ 1622  pwd
+ 1623  ls
+ 1624  rm example.config 
+ 1625  cp ../../../../Pythia/experiments/rajarshi_apr.exp example.exp
+ 1626  ls
+ 1627  cp ../../../../Pythia/experiments/rajarshi_apr.tlist example.tlist 
+ 1628  ls
+ 1629  vim example.tlist 
+ 1630  vim example.exp 
+ 1631  python3 create_jobs.py 
+ 1632  setenv CHAMPSIM_HOME ~/ChampSim_base/ChampSim/
+ 1633  CHAMPSIM_HOME ~/ChampSim_base/ChampSim/
+ 1634  export CHAMPSIM_HOME ~/ChampSim_base/ChampSim/
+ 1635  export CHAMPSIM_HOME ~/ChampSim_base/ChampSim
+ 1636  export CHAMPSIM_HOME=~/ChampSim_base/ChampSim
+ 1637  echo $CHAMPSIM_HOME
+ 1638  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim
+ 1639  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim > jobfile.sh
+ 1640  vim jobfile.sh 
+ 1641  vim ../../../../Pythia/experiments/jobfile.sh 
+ 1642  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim > jobfile.sh
+ 1643  vim jobfile.sh 
+ 1644  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim > jobfile.sh
+ 1645  vim jobfile.sh 
+ 1646  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim > jobfile.sh
+ 1647  vim jobfile.sh 
+ 1648  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim > jobfile.sh
+ 1649  vim jobfile.sh 
+ 1650  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim > jobfile.sh
+ 1651  vim jobfile.sh 
+ 1652  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim > jobfile.sh
+ 1653  vim jobfile.sh 
+ 1654  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim > jobfile.sh
+ 1655  vim jobfile.sh 
+ 1656  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim > jobfile.sh
+ 1657  vim jobfile.sh 
+ 1658  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim > jobfile.sh
+ 1659  vim jobfile.sh 
+ 1660  ls
+ 1661  cl
+ 1662  gitgit
+ 1663  git
+ 1664  clear
+ 1665  git --version
+ 1666  git config --global user.name "Rajarshi"
+ 1667  git config --global user.email "rajarshids609@gmail.com"
+ 1668  git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe"
+ 1669  git clone https://github.com/Rajarshii/ChampSim.git
+ 1670  cd ChampSim/
+ 1671  ls
+ 1672  pwd
+ 1673  cd prefetcher/
+ 1674  ls
+ 1675  clear
+ 1676  cd ../
+ 1677  pwd
+ 1678  ls
+ 1679  vim broken_ll.c 
+ 1680  rm broken_ll.c 
+ 1681  rm buffer_ovf.cpp 
+ 1682  cl
+ 1683  ls
+ 1684  rm -rf Vitis-Tutorials/
+ 1685  ls
+ 1686  cd cache_simulator/
+ 1687  lss
+ 1688  ls
+ 1689  vim cache_simulator.cpp 
+ 1690  vim cache_simulator.hpp 
+ 1691  cd
+ 1692  pwd
+ 1693  ls
+ 1694  mkdir c_programs
+ 1695  mv recursion.c c_programs/recursion.c
+ 1696  mv recursion.* c_programs/recursion.*
+ 1697  mv recursion.elf c_programs/recursion.elf
+ 1698  mv recursion.dump c_programs/recursion.dump
+ 1699  ls
+ 1700  vim CacheSim.cpp 
+ 1701  mv CacheSim.cpp CacheSim_Coffeeb4Arch.cpp 
+ 1702  ls
+ 1703  cd ChampSim
+ 1704  git fetch
+ 1705  ls
+ 1706  cd  prefetcher/
+ 1707  s
+ 1708  ls
+ 1709  cd ../
+ 1710  git fetch
+ 1711  cd prefetcher/
+ 1712  ls
+ 1713  cd bert
+ 1714  clear
+ 1715  git fetch
+ 1716  ls
+ 1717  git pull
+ 1718  ls
+ 1719  cd berti/
+ 1720  ls
+ 1721  vim berti.
+ 1722  vim berti.cc 
+ 1723  cl
+ 1724  vim ~/.bashrc 
+ 1725  vim ~/.bash_aliases 
+ 1726  c
+ 1727  clear
+ 1728  exit
+ 1729  jobs
+ 1730  ls
+ 1731  clear
+ 1732  du
+ 1733  du -sh
+ 1734  c
+ 1735  cl
+ 1736  c
+ 1737  cd ChampSim
+ 1738  ls
+ 1739  c
+ 1740  parallel
+ 1741  cd ../
+ 1742  sudo apt-get install parallel
+ 1743  clear
+ 1744  ls
+ 1745  parallel 
+ 1746  parallel --help
+ 1747  c
+ 1748  cd ChampSim
+ 1749  ls
+ 1750  mkdir experiments
+ 1751  ls
+ 1752  cd experiments/
+ 1753  ls
+ 1754  cd
+ 1755  cd ChampSim_base/ChampSim/dpc3_traces/
+ 1756  ls
+ 1757  cd ../../../
+ 1758  cp -r ChampSim_base/ChampSim/dpc3_traces .
+ 1759  ls
+ 1760  cd dpc3_traces/
+ 1761  ls
+ 1762  cd ../
+ 1763  clear
+ 1764  cd ChampSim_base/ChampSim/
+ 1765  ls
+ 1766  rm -rf dpc3_traces/
+ 1767  ls
+ 1768  clear
+ 1769  ls
+ 1770  cd ../../ChampSim
+ 1771  mkdir scripts
+ 1772  cd scripts/
+ 1773  cp ../../ChampSim_base/ChampSim/pref_research/experiments/* .
+ 1774  ls
+ 1775  vim jobfile.sh 
+ 1776  cp ../../Pythia/setvars.sh .
+ 1777  vim setvars.sh 
+ 1778  cd ../
+ 1779  cp scripts/setvars.sh .
+ 1780  cd scripts/
+ 1781  rm setvars.sh 
+ 1782  cd ../
+ 1783  source setvars.sh 
+ 1784  echo $CHAMPSIM_HOME
+ 1785  vim setvars.sh 
+ 1786  cd scripts/
+ 1787  python3 create_jobs.py --tlist example.tlist --config example.exp --exe /home/das/ChampSim_base/ChampSim/bin/champsim > jobfile.sh
+ 1788  vim jobfile.sh 
+ 1789  touch example_usage.md
+ 1790  code example_usage.md 
+ 1791  c
+ 1792  ls
+ 1793  touch MULTICORE_4C.exp MULTICORE_4C.tlist
+ 1794  ls
+ 1795  cd ..
+ 1796  ls
+ 1797  cd scripts/
+ 1798  ls
+ 1799  cd ../experiments/
+ 1800  ls
+ 1801  cp ../../Pythia/experiments/MICRO21_4C.* .
+ 1802  mv MICRO21_4C.exp MULTICORE_4C.exp
+ 1803  mv MICRO21_4C.tlist MULTICORE_4C.tlist
+ 1804  cd ../scripts/
+ 1805  rm MULTICORE_4C.*
+ 1806  cd ../experiments/
+ 1807  ls
+ 1808  vim MULTICORE_4C.exp 
+ 1809  cd ../../Pythia/traces/
+ 1810  ls
+ 1811  rm ligra_*
+ 1812  ls
+ 1813  cd ../scripts/
+ 1814  ls
+ 1815  vim artifact_traces.csv 
+ 1816  cd ../../
+ 1817  ls
+ 1818  cd Pythia/
+ 1819  source setvars.sh 
+ 1820  cd scripts/
+ 1821  mkdir ../../traces4_pythia
+ 1822  ls ../../
+ 1823  vim artifact_traces.csv 
+ 1824  perl download_traces.pl --csv artifact_traces.csv --dir ../../traces4_pythia
+ 1825  cd ../../
+ 1826  cd traces4_pythia/
+ 1827  ls
+ 1828  cd ../
+ 1829  rm -rf traces4_pythia
+ 1830  mkdir traces4_pythia
+ 1831  ls
+ 1832  cd Pythia/scripts/
+ 1833  perl download_traces.pl --csv artifact_traces.csv --dir ../../traces4_pythia
+ 1834  pwd
+ 1835  ls
+ 1836  vim spec.txt 
+ 1837  pwd
+ 1838  cd ../../traces4_pythia/
+ 1839  ls
+ 1840  cd ../Pythia/scripts/
+ 1841  vim download_traces.pl 
+ 1842  ls
+ 1843  vim gen_feature_exps.pl 
+ 1844  cd ../../ChampSim
+ 1845  ls
+ 1846  cd experiments/
+ 1847  ls
+ 1848  vim MULTICORE_4C.exp 
+ 1849  vim MULTICORE_4C.tlist 
+ 1850  mv MULTICORE_4C.tlist MULTICORE_4C.tlist.bak
+ 1851  cp ../../Pythia/experiments/MICRO21_4C.tlist MULTICORE_4C.tlist
+ 1852  vim MULTICORE_4C.tlist
+ 1853  ls $(CHAMPSIM_HOME)/traces/433.milc-127B.champsimtrace.xz
+ 1854  echo $CHAMPSIM_HOME
+ 1855  vim MULTICORE_4C.tlist
+ 1856  cd ../
+ 1857  pwd
+ 1858  cd ../
+ 1859  pwd
+ 1860  ls
+ 1861  mv traces4_pythia traces4_champsim
+ 1862  ls
+ 1863  cd traces4_champsim/
+ 1864  ls
+ 1865  cd ../
+ 1866  cl
+ 1867  c
+ 1868  cd ChampSim
+ 1869  vim setvars.sh 
+ 1870  source setvars.sh 
+ 1871  vim setvars.sh 
+ 1872  source setvars.sh 
+ 1873  echo $TRACE_SRC
+ 1874  ls /home/das/traces4_champsim
+ 1875  c
+ 1876  cd experiments/
+ 1877  ls
+ 1878  vim MULTICORE_4C.tlist
+ 1879  vim ../scripts/create_jobs.py 
+ 1880  cd ../scripts/
+ 1881  vim example_usage.md 
+ 1882  cd ../experiments/
+ 1883  python3 ../scripts/create_jobs.py --tlist MULTICORE_4C.tlist --config MULTICORE_4C.exp -exe /home/das/ChampSim/bin/champsim > jobfile.sh
+ 1884  python3 ../scripts/create_jobs.py --tlist MULTICORE_4C.tlist --config MULTICORE_4C.exp --exe /home/das/ChampSim/bin/champsim > jobfile.sh
+ 1885  vim jobfile.sh 
+ 1886  vim MULTICORE_4C.exp 
+ 1887  python3 ../scripts/create_jobs.py --tlist MULTICORE_4C.tlist --config MULTICORE_4C.exp --exe /home/das/ChampSim/bin/champsim > jobfile.sh
+ 1888  vim jobfile.sh 
+ 1889  vim MULTICORE_4C.exp 
+ 1890  python3 ../scripts/create_jobs.py --tlist MULTICORE_4C.tlist --config MULTICORE_4C.exp --exe /home/das/ChampSim/bin/champsim > jobfile.sh
+ 1891  vim jobfile.sh 
+ 1892  cd ../
+ 1893  vim my_mc_config.json 
+ 1894  ./config.sh my_mc_config.json 
+ 1895  git submodule update --init
+ 1896  vcpkg/bootstrap-vcpkg.sh
+ 1897  vcpkg/vcpkg install
+ 1898  ./config.sh my_mc_config.json 
+ 1899  make
+ 1900  cd bin/
+ 1901  ls
+ 1902  mv champsim champsim_mc_no
+ 1903  cd ../
+ 1904  vim my_mc_config.json 
+ 1905  ./config.sh my_mc_config.json 
+ 1906  make
+ 1907  cd bin/
+ 1908  mv champsim champsim_mc_spp
+ 1909  ls
+ 1910  cd ../
+ 1911  vim my_mc_config.json 
+ 1912  ./config.sh my_mc_config.json 
+ 1913  vim my_mc_config.json 
+ 1914  ./config.sh my_mc_config.json 
+ 1915  c
+ 1916  vim my_mc_config.json 
+ 1917  ./config.sh my_mc_config.json 
+ 1918  make
+ 1919  :q
+ 1920  cd bin/
+ 1921  mv champsim champsim_mc_berti
+ 1922  cd ../
+ 1923  ls
+ 1924  cd experiments/
+ 1925  ls
+ 1926  python3 ../scripts/create_jobs.py --tlist MULTICORE_4C.tlist --config MULTICORE_4C.exp --exe /home/das/ChampSim/bin/champsim_mc_no > jobfile_no.sh
+ 1927  python3 ../scripts/create_jobs.py --tlist MULTICORE_4C.tlist --config MULTICORE_4C.exp --exe /home/das/ChampSim/bin/champsim_mc_spp > jobfile_spp.sh
+ 1928  python3 ../scripts/create_jobs.py --tlist MULTICORE_4C.tlist --config MULTICORE_4C.exp --exe /home/das/ChampSim/bin/champsim_mc_berti > jobfile_berti.sh
+ 1929  vim jobfile_no.sh 
+ 1930  mkdir no spp berti
+ 1931  ls
+ 1932  vim ../scripts/example_usage.md 
+ 1933  c
+ 1934  ls
+ 1935  cd no/
+ 1936  source ../jobfile_no.sh 
+ 1937  ls
+ 1938  vim 403.gcc-16B_4T_nopref.out 
+ 1939  vim ../jobfile_no.sh 
+ 1940  ls
+ 1941  rm 403.gcc-16B_4T_nopref.out 
+ 1942  source ../jobfile_no.sh 
+ 1943  jobs
+ 1944  c
+ 1945  ls
+ 1946  vim MP_mix_15_nopref.out 
+ 1947  c
+ 1948  ls
+ 1949  vim 410.bwaves-1963B_4T_nopref.out 
+ 1950  ls
+ 1951  c
+ 1952  ls
+ 1953  c
+ 1954  ls
+ 1955  c
+ 1956  vim 403.gcc-16B_4T_nopref.out
+ 1957  ls
+ 1958  jobs
+ 1959  vim 403.gcc-16B_4T_nopref.out
+ 1960  ls
+ 1961  c
+ 1962  vim 403.gcc-16B_4T_nopref.out
+ 1963  c
+ 1964  ls
+ 1965  vim MP_mix_19_nopref.out
+ 1966  ls
+ 1967  c
+ 1968  vim 403.gcc-16B_4T_nopref.out
+ 1969  cd ../
+ 1970  cp MULTICORE_4C.tlist MULTICORE_4C_MT.tlist
+ 1971  vim MULTICORE_4C_MT.tlist 
+ 1972  c
+ 1973  cd no
+ 1974  ls
+ 1975  vim 403.gcc-16B_4T_nopref.out 
+ 1976  jobs
+ 1977  kill -9
+ 1978  c
+ 1979  kill $(jobs -p)
+ 1980  jobs
+ 1981  c
+ 1982  jobs
+ 1983  ls
+ 1984  vim 403.gcc-16B_4T_nopref.out
+ 1985  cd ../
+ 1986  rm -rf no/
+ 1987  pwd
+ 1988  ls
+ 1989  jobs
+ 1990  perf
+ 1991  c
+ 1992  ls
+ 1993  mkdir no
+ 1994  cd no
+ 1995  cat 3 ../jobfile_no.sh 
+ 1996  c
+ 1997  /home/das/ChampSim/bin/champsim_mc_no --warmup_instructions=50000000 --simulation_instructions=150000000  /home/das/traces4_champsim/471.omnetpp-188B.champsimtrace.xz /home/das/traces4_champsim/410.bwaves-1963B.champsimtrace.xz /home/das/traces4_champsim/482.sphinx3-1100B.champsimtrace.xz /home/das/traces4_champsim/654.roms_s-294B.champsimtrace.xz
+ 1998  ls
+ 1999  cd ../
+ 2000  cd ChampSim
+ 2001  source setvars.sh 
+ 2002  cd experiments/
+ 2003  cd no/
+ 2004  ls
+ 2005  vim ../jobfile_no.sh 
+ 2006  parallel -j 4 :::: ../jobfile_no.sh &
+ 2007  htop
+ 2008  ls
+ 2009  vim 403.gcc-16B_4T_nopref.out 
+ 2010  cat 403.gcc-16B_4T_nopref.out 
+ 2011  killall -term parallel
+ 2012  killall -TERM parallel
+ 2013  htop
+ 2014  ls
+ 2015  rm 4*
+ 2016  ls
+ 2017  cd ../
+ 2018  ls
+ 2019  vim jobfile_no.sh 
+ 2020  rm jobfile_*
+ 2021  ls
+ 2022  python3 ../scripts/create_jobs.py --tlist MULTICORE_4C_MT.tlist --config MULTICORE_4C.exp --exe /home/das/ChampSim/bin/champsim_mc_no > jobfile_no.sh
+ 2023  python3 ../scripts/create_jobs.py --tlist MULTICORE_4C_MT.tlist --config MULTICORE_4C.exp --exe /home/das/ChampSim/bin/champsim_mc_berti > jobfile_berti.sh
+ 2024  python3 ../scripts/create_jobs.py --tlist MULTICORE_4C_MT.tlist --config MULTICORE_4C.exp --exe /home/das/ChampSim/bin/champsim_mc_spp > jobfile_spp.sh
+ 2025  vim jobfile_no.sh 
+ 2026  cd no/
+ 2027  ls
+ 2028  parallel -j 8 :::: ../jobfile_no.sh
+ 2029  cd ../
+ 2030  history > steps.txt

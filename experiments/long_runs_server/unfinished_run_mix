@@ -1,0 +1,81 @@
+
+// lbm did not finish
+  ~pgratz/dpc3_traces/644.nab_s-5853B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/619.lbm_s-4268B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/603.bwaves_s-3699B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/627.cam4_s-573B.champsimtrace.xz \
+  > pref_research/results/no/mix18_mc_7_10_3_8.txt
+
+// omnet and lbm did not finish
+  ~pgratz/dpc3_traces/620.omnetpp_s-874B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/603.bwaves_s-3699B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/607.cactuBSSN_s-2421B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/619.lbm_s-4268B.champsimtrace.xz \
+  > pref_research/results/no/mix24_mc_5_3_0_10.txt
+
+// omnet did not finish
+  ~pgratz/dpc3_traces/620.omnetpp_s-874B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/607.cactuBSSN_s-2421B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/627.cam4_s-573B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/623.xalancbmk_s-700B.champsimtrace.xz \
+  > pref_research/results/no/mix26_mc_5_0_8_9.txt
+
+// 8hrs - lbm didnot finish 
+  ~pgratz/dpc3_traces/619.lbm_s-4268B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/607.cactuBSSN_s-2421B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/627.cam4_s-573B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/621.wrf_s-575B.champsimtrace.xz \
+  > pref_research/results/no/mix27_mc_10_0_8_4.txt
+
+// 11.5 hrs - omnet and lbm did not finish
+  ~pgratz/dpc3_traces/620.omnetpp_s-874B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/603.bwaves_s-3699B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/619.lbm_s-4268B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/627.cam4_s-573B.champsimtrace.xz \
+  > pref_research/results/no/mix29_mc_5_3_10_8.txt
+
+// 11.5hrs lbm did not finish 
+  ~pgratz/dpc3_traces/619.lbm_s-4268B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/607.cactuBSSN_s-2421B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/654.roms_s-842B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/649.fotonik3d_s-1176B.champsimtrace.xz \
+  > pref_research/results/no/mix33_mc_10_0_2_6.txt
+
+// 10.5hrs mcf did not finish
+  ~pgratz/dpc3_traces/603.bwaves_s-3699B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/649.fotonik3d_s-1176B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/605.mcf_s-665B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/627.cam4_s-573B.champsimtrace.xz \
+  > pref_research/results/no/mix35_mc_3_6_12_8.txt
+
+// 11hrs  omnet and lbm did not finish 
+  ~pgratz/dpc3_traces/620.omnetpp_s-874B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/619.lbm_s-4268B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/607.cactuBSSN_s-2421B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/654.roms_s-842B.champsimtrace.xz \
+  > pref_research/results/no/mix36_mc_5_10_0_2.txt
+
+// 10hrs lbm did not finish
+  ~pgratz/dpc3_traces/619.lbm_s-4268B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/603.bwaves_s-3699B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/654.roms_s-842B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/628.pop2_s-17B.champsimtrace.xz \
+  > pref_research/results/no/mix37_mc_10_3_2_1.txt
+
+// omnet, lbm and mcf did not finish
+// total # of instrs for one CPU1 was 210000000 >(150000000 + 50000000) -> probably due to mispredicted/ wrong path instr
+  ~pgratz/dpc3_traces/620.omnetpp_s-874B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/619.lbm_s-4268B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/627.cam4_s-573B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/605.mcf_s-665B.champsimtrace.xz \
+  > pref_research/results/no/mix38_mc_5_10_8_12.txt
+
+// 9hrs, mcf did not finish
+  ~pgratz/dpc3_traces/605.mcf_s-665B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/627.cam4_s-573B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/628.pop2_s-17B.champsimtrace.xz \
+  ~pgratz/dpc3_traces/621.wrf_s-575B.champsimtrace.xz \
+  > pref_research/results/no/mix3_mc_12_8_1_4.txt
+
+
+// omnet and mcf together does not necessarily cause the misprediction
