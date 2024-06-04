@@ -2,7 +2,11 @@
     "num_cores": 4,
     "branch_predictor": "perceptron",
     "L2C": { 
-        "prefetcher": "berti" 
+        "prefetcher": "no" 
+    },
+    "physical_memory": {
+        "frequency": 2400,
+         "channels": 2
     }  
 }
 

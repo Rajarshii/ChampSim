@@ -1,392 +1,400 @@
-NAME=403.gcc-16B_4T
-TRACE=$(TRACE_SRC)/403.gcc-16B.champsimtrace.xz $(TRACE_SRC)/403.gcc-16B.champsimtrace.xz $(TRACE_SRC)/403.gcc-16B.champsimtrace.xz $(TRACE_SRC)/403.gcc-16B.champsimtrace.xz
+NAME=mix_0
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=410.bwaves-1963B_4T
-TRACE=$(TRACE_SRC)/410.bwaves-1963B.champsimtrace.xz $(TRACE_SRC)/410.bwaves-1963B.champsimtrace.xz $(TRACE_SRC)/410.bwaves-1963B.champsimtrace.xz $(TRACE_SRC)/410.bwaves-1963B.champsimtrace.xz
+NAME=mix_1
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz
 KNOBS=
 
-NAME=429.mcf-184B_4T
-TRACE=$(TRACE_SRC)/429.mcf-184B.champsimtrace.xz $(TRACE_SRC)/429.mcf-184B.champsimtrace.xz $(TRACE_SRC)/429.mcf-184B.champsimtrace.xz $(TRACE_SRC)/429.mcf-184B.champsimtrace.xz
+NAME=mix_2
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=429.mcf-192B_4T
-TRACE=$(TRACE_SRC)/429.mcf-192B.champsimtrace.xz $(TRACE_SRC)/429.mcf-192B.champsimtrace.xz $(TRACE_SRC)/429.mcf-192B.champsimtrace.xz $(TRACE_SRC)/429.mcf-192B.champsimtrace.xz
+NAME=mix_3
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=429.mcf-51B_4T
-TRACE=$(TRACE_SRC)/429.mcf-51B.champsimtrace.xz $(TRACE_SRC)/429.mcf-51B.champsimtrace.xz $(TRACE_SRC)/429.mcf-51B.champsimtrace.xz $(TRACE_SRC)/429.mcf-51B.champsimtrace.xz
+NAME=mix_4
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz
 KNOBS=
 
-NAME=433.milc-127B_4T
-TRACE=$(TRACE_SRC)/433.milc-127B.champsimtrace.xz $(TRACE_SRC)/433.milc-127B.champsimtrace.xz $(TRACE_SRC)/433.milc-127B.champsimtrace.xz $(TRACE_SRC)/433.milc-127B.champsimtrace.xz
+NAME=mix_5
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz
 KNOBS=
 
-NAME=436.cactusADM-1804B_4T
-TRACE=$(TRACE_SRC)/436.cactusADM-1804B.champsimtrace.xz $(TRACE_SRC)/436.cactusADM-1804B.champsimtrace.xz $(TRACE_SRC)/436.cactusADM-1804B.champsimtrace.xz $(TRACE_SRC)/436.cactusADM-1804B.champsimtrace.xz
+NAME=mix_6
+TRACE=$(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=437.leslie3d-149B_4T
-TRACE=$(TRACE_SRC)/437.leslie3d-149B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-149B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-149B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-149B.champsimtrace.xz
+NAME=mix_7
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=437.leslie3d-232B_4T
-TRACE=$(TRACE_SRC)/437.leslie3d-232B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-232B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-232B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-232B.champsimtrace.xz
+NAME=mix_8
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=437.leslie3d-265B_4T
-TRACE=$(TRACE_SRC)/437.leslie3d-265B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-265B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-265B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-265B.champsimtrace.xz
+NAME=mix_9
+TRACE=$(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=437.leslie3d-271B_4T
-TRACE=$(TRACE_SRC)/437.leslie3d-271B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-271B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-271B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-271B.champsimtrace.xz
+NAME=mix_10
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz
 KNOBS=
 
-NAME=445.gobmk-30B_4T
-TRACE=$(TRACE_SRC)/445.gobmk-30B.champsimtrace.xz $(TRACE_SRC)/445.gobmk-30B.champsimtrace.xz $(TRACE_SRC)/445.gobmk-30B.champsimtrace.xz $(TRACE_SRC)/445.gobmk-30B.champsimtrace.xz
+NAME=mix_11
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=445.gobmk-36B_4T
-TRACE=$(TRACE_SRC)/445.gobmk-36B.champsimtrace.xz $(TRACE_SRC)/445.gobmk-36B.champsimtrace.xz $(TRACE_SRC)/445.gobmk-36B.champsimtrace.xz $(TRACE_SRC)/445.gobmk-36B.champsimtrace.xz
+NAME=mix_12
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=450.soplex-247B_4T
-TRACE=$(TRACE_SRC)/450.soplex-247B.champsimtrace.xz $(TRACE_SRC)/450.soplex-247B.champsimtrace.xz $(TRACE_SRC)/450.soplex-247B.champsimtrace.xz $(TRACE_SRC)/450.soplex-247B.champsimtrace.xz
+NAME=mix_13
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=459.GemsFDTD-1211B_4T
-TRACE=$(TRACE_SRC)/459.GemsFDTD-1211B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1211B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1211B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1211B.champsimtrace.xz
+NAME=mix_14
+TRACE=$(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz
 KNOBS=
 
-NAME=459.GemsFDTD-1418B_4T
-TRACE=$(TRACE_SRC)/459.GemsFDTD-1418B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1418B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1418B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1418B.champsimtrace.xz
+NAME=mix_15
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz
 KNOBS=
 
-NAME=459.GemsFDTD-765B_4T
-TRACE=$(TRACE_SRC)/459.GemsFDTD-765B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-765B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-765B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-765B.champsimtrace.xz
+NAME=mix_16
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=462.libquantum-1343B_4T
-TRACE=$(TRACE_SRC)/462.libquantum-1343B.champsimtrace.xz $(TRACE_SRC)/462.libquantum-1343B.champsimtrace.xz $(TRACE_SRC)/462.libquantum-1343B.champsimtrace.xz $(TRACE_SRC)/462.libquantum-1343B.champsimtrace.xz
+NAME=mix_17
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz
 KNOBS=
 
-NAME=462.libquantum-714B_4T
-TRACE=$(TRACE_SRC)/462.libquantum-714B.champsimtrace.xz $(TRACE_SRC)/462.libquantum-714B.champsimtrace.xz $(TRACE_SRC)/462.libquantum-714B.champsimtrace.xz $(TRACE_SRC)/462.libquantum-714B.champsimtrace.xz
+NAME=mix_18
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=470.lbm-1274B_4T
-TRACE=$(TRACE_SRC)/470.lbm-1274B.champsimtrace.xz $(TRACE_SRC)/470.lbm-1274B.champsimtrace.xz $(TRACE_SRC)/470.lbm-1274B.champsimtrace.xz $(TRACE_SRC)/470.lbm-1274B.champsimtrace.xz
+NAME=mix_19
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz
 KNOBS=
 
-NAME=471.omnetpp-188B_4T
-TRACE=$(TRACE_SRC)/471.omnetpp-188B.champsimtrace.xz $(TRACE_SRC)/471.omnetpp-188B.champsimtrace.xz $(TRACE_SRC)/471.omnetpp-188B.champsimtrace.xz $(TRACE_SRC)/471.omnetpp-188B.champsimtrace.xz
+NAME=mix_20
+TRACE=$(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=473.astar-359B_4T
-TRACE=$(TRACE_SRC)/473.astar-359B.champsimtrace.xz $(TRACE_SRC)/473.astar-359B.champsimtrace.xz $(TRACE_SRC)/473.astar-359B.champsimtrace.xz $(TRACE_SRC)/473.astar-359B.champsimtrace.xz
+NAME=mix_21
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=481.wrf-1254B_4T
-TRACE=$(TRACE_SRC)/481.wrf-1254B.champsimtrace.xz $(TRACE_SRC)/481.wrf-1254B.champsimtrace.xz $(TRACE_SRC)/481.wrf-1254B.champsimtrace.xz $(TRACE_SRC)/481.wrf-1254B.champsimtrace.xz
+NAME=mix_22
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz
 KNOBS=
 
-NAME=481.wrf-196B_4T
-TRACE=$(TRACE_SRC)/481.wrf-196B.champsimtrace.xz $(TRACE_SRC)/481.wrf-196B.champsimtrace.xz $(TRACE_SRC)/481.wrf-196B.champsimtrace.xz $(TRACE_SRC)/481.wrf-196B.champsimtrace.xz
+NAME=mix_23
+TRACE=$(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=481.wrf-816B_4T
-TRACE=$(TRACE_SRC)/481.wrf-816B.champsimtrace.xz $(TRACE_SRC)/481.wrf-816B.champsimtrace.xz $(TRACE_SRC)/481.wrf-816B.champsimtrace.xz $(TRACE_SRC)/481.wrf-816B.champsimtrace.xz
+NAME=mix_24
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=482.sphinx3-1297B_4T
-TRACE=$(TRACE_SRC)/482.sphinx3-1297B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1297B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1297B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1297B.champsimtrace.xz
+NAME=mix_25
+TRACE=$(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=482.sphinx3-1395B_4T
-TRACE=$(TRACE_SRC)/482.sphinx3-1395B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1395B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1395B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1395B.champsimtrace.xz
+NAME=mix_26
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=483.xalancbmk-127B_4T
-TRACE=$(TRACE_SRC)/483.xalancbmk-127B.champsimtrace.xz $(TRACE_SRC)/483.xalancbmk-127B.champsimtrace.xz $(TRACE_SRC)/483.xalancbmk-127B.champsimtrace.xz $(TRACE_SRC)/483.xalancbmk-127B.champsimtrace.xz
+NAME=mix_27
+TRACE=$(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz
 KNOBS=
 
-NAME=602.gcc_s-1850B_4T
-TRACE=$(TRACE_SRC)/602.gcc_s-1850B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-1850B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-1850B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-1850B.champsimtrace.xz
+NAME=mix_28
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz
 KNOBS=
 
-NAME=602.gcc_s-734B_4T
-TRACE=$(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
+NAME=mix_29
+TRACE=$(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz
 KNOBS=
 
-NAME=603.bwaves_s-2931B_4T
-TRACE=$(TRACE_SRC)/603.bwaves_s-2931B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-2931B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-2931B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-2931B.champsimtrace.xz
+NAME=mix_30
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz
 KNOBS=
 
-NAME=605.mcf_s-994B_4T
-TRACE=$(TRACE_SRC)/605.mcf_s-994B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-994B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-994B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-994B.champsimtrace.xz
+NAME=mix_31
+TRACE=$(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=607.cactuBSSN_s-2421B_4T
-TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz
+NAME=mix_32
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz
 KNOBS=
 
-NAME=619.lbm_s-2677B_4T
-TRACE=$(TRACE_SRC)/619.lbm_s-2677B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-2677B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-2677B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-2677B.champsimtrace.xz
+NAME=mix_33
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=619.lbm_s-3766B_4T
-TRACE=$(TRACE_SRC)/619.lbm_s-3766B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-3766B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-3766B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-3766B.champsimtrace.xz
+NAME=mix_34
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz
 KNOBS=
 
-NAME=619.lbm_s-4268B_4T
-TRACE=$(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz
+NAME=mix_35
+TRACE=$(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=620.omnetpp_s-141B_4T
-TRACE=$(TRACE_SRC)/620.omnetpp_s-141B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-141B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-141B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-141B.champsimtrace.xz
+NAME=mix_36
+TRACE=$(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=620.omnetpp_s-874B_4T
-TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz
+NAME=mix_37
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=621.wrf_s-6673B_4T
-TRACE=$(TRACE_SRC)/621.wrf_s-6673B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-6673B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-6673B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-6673B.champsimtrace.xz
+NAME=mix_38
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=621.wrf_s-8065B_4T
-TRACE=$(TRACE_SRC)/621.wrf_s-8065B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-8065B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-8065B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-8065B.champsimtrace.xz
+NAME=mix_39
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=623.xalancbmk_s-10B_4T
-TRACE=$(TRACE_SRC)/623.xalancbmk_s-10B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-10B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-10B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-10B.champsimtrace.xz
+NAME=mix_40
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=623.xalancbmk_s-592B_4T
-TRACE=$(TRACE_SRC)/623.xalancbmk_s-592B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-592B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-592B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-592B.champsimtrace.xz
+NAME=mix_41
+TRACE=$(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=627.cam4_s-573B_4T
-TRACE=$(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz
+NAME=mix_42
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz
 KNOBS=
 
-NAME=628.pop2_s-17B_4T
-TRACE=$(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
+NAME=mix_43
+TRACE=$(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz
 KNOBS=
 
-NAME=649.fotonik3d_s-10881B_4T
-TRACE=$(TRACE_SRC)/649.fotonik3d_s-10881B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-10881B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-10881B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-10881B.champsimtrace.xz
+NAME=mix_44
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz
 KNOBS=
 
-NAME=654.roms_s-1007B_4T
-TRACE=$(TRACE_SRC)/654.roms_s-1007B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1007B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1007B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1007B.champsimtrace.xz
+NAME=mix_45
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_2
-TRACE=$(TRACE_SRC)/437.leslie3d-265B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-8065B.champsimtrace.xz $(TRACE_SRC)/429.mcf-192B.champsimtrace.xz $(TRACE_SRC)/481.wrf-816B.champsimtrace.xz
+NAME=mix_46
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_5
-TRACE=$(TRACE_SRC)/654.roms_s-1613B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-2676B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1211B.champsimtrace.xz $(TRACE_SRC)/429.mcf-184B.champsimtrace.xz
+NAME=mix_47
+TRACE=$(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_7
-TRACE=$(TRACE_SRC)/481.wrf-196B.champsimtrace.xz $(TRACE_SRC)/481.wrf-1281B.champsimtrace.xz $(TRACE_SRC)/481.wrf-816B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-10881B.champsimtrace.xz
+NAME=mix_48
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_10
-TRACE=$(TRACE_SRC)/437.leslie3d-273B.champsimtrace.xz $(TRACE_SRC)/429.mcf-192B.champsimtrace.xz $(TRACE_SRC)/429.mcf-184B.champsimtrace.xz $(TRACE_SRC)/470.lbm-1274B.champsimtrace.xz
+NAME=mix_49
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_11
-TRACE=$(TRACE_SRC)/481.wrf-455B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1070B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-994B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-10B.champsimtrace.xz
+NAME=mix_50
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_12
-TRACE=$(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/470.lbm-1274B.champsimtrace.xz $(TRACE_SRC)/445.gobmk-30B.champsimtrace.xz
+NAME=mix_51
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_15
-TRACE=$(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1007B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-2676B.champsimtrace.xz $(TRACE_SRC)/429.mcf-192B.champsimtrace.xz
+NAME=mix_52
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_16
-TRACE=$(TRACE_SRC)/459.GemsFDTD-765B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-994B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-765B.champsimtrace.xz $(TRACE_SRC)/473.astar-359B.champsimtrace.xz
+NAME=mix_53
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_18
-TRACE=$(TRACE_SRC)/654.roms_s-1390B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-4004B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-2677B.champsimtrace.xz $(TRACE_SRC)/445.gobmk-36B.champsimtrace.xz
+NAME=mix_54
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_19
-TRACE=$(TRACE_SRC)/473.astar-359B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-1644B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-6673B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz
+NAME=mix_55
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_21
-TRACE=$(TRACE_SRC)/649.fotonik3d_s-10881B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-293B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1390B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-994B.champsimtrace.xz
+NAME=mix_56
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_23
-TRACE=$(TRACE_SRC)/410.bwaves-1963B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/445.gobmk-36B.champsimtrace.xz $(TRACE_SRC)/433.milc-337B.champsimtrace.xz
+NAME=mix_57
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_24
-TRACE=$(TRACE_SRC)/654.roms_s-1007B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-1740B.champsimtrace.xz $(TRACE_SRC)/473.astar-359B.champsimtrace.xz $(TRACE_SRC)/481.wrf-196B.champsimtrace.xz
+NAME=mix_58
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_25
-TRACE=$(TRACE_SRC)/654.roms_s-1070B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1100B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1007B.champsimtrace.xz
+NAME=mix_59
+TRACE=$(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_29
-TRACE=$(TRACE_SRC)/620.omnetpp_s-141B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-417B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-3477B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-4004B.champsimtrace.xz
+NAME=mix_60
+TRACE=$(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_32
-TRACE=$(TRACE_SRC)/445.gobmk-36B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1390B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1395B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1522B.champsimtrace.xz
+NAME=mix_61
+TRACE=$(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_34
-TRACE=$(TRACE_SRC)/605.mcf_s-1536B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-2609B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-592B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-141B.champsimtrace.xz
+NAME=mix_62
+TRACE=$(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_36
-TRACE=$(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-149B.champsimtrace.xz $(TRACE_SRC)/481.wrf-196B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-490B.champsimtrace.xz
+NAME=mix_63
+TRACE=$(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_39
-TRACE=$(TRACE_SRC)/459.GemsFDTD-1211B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1613B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-8065B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-1644B.champsimtrace.xz
+NAME=mix_64
+TRACE=$(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_40
-TRACE=$(TRACE_SRC)/603.bwaves_s-2931B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-294B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-2931B.champsimtrace.xz $(TRACE_SRC)/481.wrf-1281B.champsimtrace.xz
+NAME=mix_65
+TRACE=$(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_41
-TRACE=$(TRACE_SRC)/429.mcf-184B.champsimtrace.xz $(TRACE_SRC)/429.mcf-184B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-232B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-273B.champsimtrace.xz
+NAME=mix_66
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_42
-TRACE=$(TRACE_SRC)/603.bwaves_s-1740B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1211B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1100B.champsimtrace.xz $(TRACE_SRC)/403.gcc-16B.champsimtrace.xz
+NAME=mix_67
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_45
-TRACE=$(TRACE_SRC)/450.soplex-92B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-1850B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-523B.champsimtrace.xz $(TRACE_SRC)/410.bwaves-1963B.champsimtrace.xz
+NAME=mix_68
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_46
-TRACE=$(TRACE_SRC)/481.wrf-816B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-3766B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-1740B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1297B.champsimtrace.xz
+NAME=mix_69
+TRACE=$(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_49
-TRACE=$(TRACE_SRC)/605.mcf_s-1644B.champsimtrace.xz $(TRACE_SRC)/481.wrf-196B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1070B.champsimtrace.xz
+NAME=mix_70
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_52
-TRACE=$(TRACE_SRC)/437.leslie3d-271B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-6673B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-3477B.champsimtrace.xz
+NAME=mix_71
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_54
-TRACE=$(TRACE_SRC)/470.lbm-1274B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-232B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-490B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz
+NAME=mix_72
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_55
-TRACE=$(TRACE_SRC)/619.lbm_s-2676B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1169B.champsimtrace.xz $(TRACE_SRC)/436.cactusADM-1804B.champsimtrace.xz
+NAME=mix_73
+TRACE=$(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_57
-TRACE=$(TRACE_SRC)/654.roms_s-293B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/410.bwaves-1963B.champsimtrace.xz $(TRACE_SRC)/456.hmmer-327B.champsimtrace.xz
+NAME=mix_74
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_59
-TRACE=$(TRACE_SRC)/462.libquantum-1343B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1297B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-782B.champsimtrace.xz $(TRACE_SRC)/450.soplex-247B.champsimtrace.xz
+NAME=mix_75
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_60
-TRACE=$(TRACE_SRC)/459.GemsFDTD-1491B.champsimtrace.xz $(TRACE_SRC)/473.astar-359B.champsimtrace.xz $(TRACE_SRC)/481.wrf-1281B.champsimtrace.xz $(TRACE_SRC)/450.soplex-92B.champsimtrace.xz
+NAME=mix_76
+TRACE=$(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_61
-TRACE=$(TRACE_SRC)/602.gcc_s-1850B.champsimtrace.xz $(TRACE_SRC)/429.mcf-22B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-1554B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-782B.champsimtrace.xz
+NAME=mix_77
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_62
-TRACE=$(TRACE_SRC)/607.cactuBSSN_s-4004B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-2931B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-1740B.champsimtrace.xz
+NAME=mix_78
+TRACE=$(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_63
-TRACE=$(TRACE_SRC)/607.cactuBSSN_s-3477B.champsimtrace.xz $(TRACE_SRC)/470.lbm-1274B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1297B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1169B.champsimtrace.xz
+NAME=mix_79
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_64
-TRACE=$(TRACE_SRC)/649.fotonik3d_s-8225B.champsimtrace.xz $(TRACE_SRC)/433.milc-127B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-294B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-293B.champsimtrace.xz
+NAME=mix_80
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_65
-TRACE=$(TRACE_SRC)/459.GemsFDTD-1169B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-484B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-293B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1390B.champsimtrace.xz
+NAME=mix_81
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_66
-TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-1554B.champsimtrace.xz $(TRACE_SRC)/403.gcc-16B.champsimtrace.xz $(TRACE_SRC)/481.wrf-1254B.champsimtrace.xz
+NAME=mix_82
+TRACE=$(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_67
-TRACE=$(TRACE_SRC)/450.soplex-247B.champsimtrace.xz $(TRACE_SRC)/410.bwaves-1963B.champsimtrace.xz $(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
+NAME=mix_83
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_69
-TRACE=$(TRACE_SRC)/605.mcf_s-994B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-2226B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-1850B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-2609B.champsimtrace.xz
+NAME=mix_84
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_70
-TRACE=$(TRACE_SRC)/437.leslie3d-232B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-10B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-273B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-8065B.champsimtrace.xz
+NAME=mix_85
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_74
-TRACE=$(TRACE_SRC)/429.mcf-192B.champsimtrace.xz $(TRACE_SRC)/436.cactusADM-1804B.champsimtrace.xz $(TRACE_SRC)/481.wrf-455B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1613B.champsimtrace.xz
+NAME=mix_86
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_75
-TRACE=$(TRACE_SRC)/621.wrf_s-6673B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-592B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1007B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-271B.champsimtrace.xz
+NAME=mix_87
+TRACE=$(TRACE_SRC)/620.omnetpp_s-874B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_76
-TRACE=$(TRACE_SRC)/433.milc-127B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-10881B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-10B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-3766B.champsimtrace.xz
+NAME=mix_88
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_77
-TRACE=$(TRACE_SRC)/603.bwaves_s-2609B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-265B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/603.bwaves_s-2931B.champsimtrace.xz
+NAME=mix_89
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_79
-TRACE=$(TRACE_SRC)/436.cactusADM-1804B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-765B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1522B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1418B.champsimtrace.xz
+NAME=mix_90
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_82
-TRACE=$(TRACE_SRC)/482.sphinx3-1522B.champsimtrace.xz $(TRACE_SRC)/445.gobmk-30B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-4004B.champsimtrace.xz $(TRACE_SRC)/462.libquantum-1343B.champsimtrace.xz
+NAME=mix_91
+TRACE=$(TRACE_SRC)/619.lbm_s-4268B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_84
-TRACE=$(TRACE_SRC)/410.bwaves-2097B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-202B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-1613B.champsimtrace.xz $(TRACE_SRC)/410.bwaves-2097B.champsimtrace.xz
+NAME=mix_92
+TRACE=$(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_87
-TRACE=$(TRACE_SRC)/429.mcf-51B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-523B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1211B.champsimtrace.xz
+NAME=mix_93
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_89
-TRACE=$(TRACE_SRC)/654.roms_s-294B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-234B.champsimtrace.xz $(TRACE_SRC)/436.cactusADM-1804B.champsimtrace.xz $(TRACE_SRC)/619.lbm_s-2676B.champsimtrace.xz
+NAME=mix_94
+TRACE=$(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz $(TRACE_SRC)/621.wrf_s-575B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_158
-TRACE=$(TRACE_SRC)/481.wrf-196B.champsimtrace.xz $(TRACE_SRC)/403.gcc-16B.champsimtrace.xz $(TRACE_SRC)/481.wrf-816B.champsimtrace.xz $(TRACE_SRC)/403.gcc-16B.champsimtrace.xz
+NAME=mix_95
+TRACE=$(TRACE_SRC)/644.nab_s-5853B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_202
-TRACE=$(TRACE_SRC)/649.fotonik3d_s-10881B.champsimtrace.xz $(TRACE_SRC)/459.GemsFDTD-1211B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-265B.champsimtrace.xz $(TRACE_SRC)/437.leslie3d-149B.champsimtrace.xz
+NAME=mix_96
+TRACE=$(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
 KNOBS=
 
-NAME=MP_mix_215
-TRACE=$(TRACE_SRC)/471.omnetpp-188B.champsimtrace.xz $(TRACE_SRC)/410.bwaves-1963B.champsimtrace.xz $(TRACE_SRC)/482.sphinx3-1100B.champsimtrace.xz $(TRACE_SRC)/654.roms_s-294B.champsimtrace.xz
+NAME=mix_97
+TRACE=$(TRACE_SRC)/603.bwaves_s-3699B.champsimtrace.xz $(TRACE_SRC)/627.cam4_s-573B.champsimtrace.xz $(TRACE_SRC)/628.pop2_s-17B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
+KNOBS=
+
+NAME=mix_98
+TRACE=$(TRACE_SRC)/607.cactuBSSN_s-2421B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz $(TRACE_SRC)/602.gcc_s-734B.champsimtrace.xz
+KNOBS=
+
+NAME=mix_99
+TRACE=$(TRACE_SRC)/654.roms_s-842B.champsimtrace.xz $(TRACE_SRC)/649.fotonik3d_s-1176B.champsimtrace.xz $(TRACE_SRC)/623.xalancbmk_s-700B.champsimtrace.xz $(TRACE_SRC)/605.mcf_s-665B.champsimtrace.xz
 KNOBS=
 
